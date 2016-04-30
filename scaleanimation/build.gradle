@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 23
@@ -16,6 +17,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+publish {
+    userOrg = 'gupuru'
+    groupId = 'com.gupuru.scaleanimation'
+    artifactId = 'scaleanimation'
+    publishVersion = '1.0.0'
+    desc = 'scale animation'
+    website = 'https://github.com/gupuru/AndroidOssLibrarySample'
 }
 
 dependencies {
