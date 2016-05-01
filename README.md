@@ -1,1 +1,7 @@
-# AndroidOssLibrarySample
+# [こちら](http://qiita.com/gupuru/items/aa81f007d306fc6c4a2c)のQiitaの記事のために書いたサンプルライブラリです。
+
+特に使い道はないですｗ(Viewを拡大するだけのライブラリです。)
+
+そのうち、まともなやつに作り変えます。。。
+
+なので、使えわないで＼(^o^)／
